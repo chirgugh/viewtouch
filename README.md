@@ -43,3 +43,14 @@
 
   [![Watch the video](https://img.youtube.com/vi/oc9rsZ0SE0E/0.jpg)](https://youtu.be/oc9rsZ0SE0E)
 
+
+
+<div markdown="1">
+    <h4>Jesse Mwirigi</h4>
+    <p>
+        I am an open-minded individual who is eager to learn and lead. I pride myself in my ability to work under pressure and to swiftly adapt to a dynamic working           environment. My areas of interest include Web development, Cloud computing, Artificial Intelligence, Data Mining and Dev Ops.
+        <br/>
+    </p>
+    
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/jessemwiti/)[![GitHub][github-shield]](https://github.com/chirgugh)
+</div>
