@@ -1,15 +1,14 @@
-# Chat-Application
+# ViewTouch
 
-- This chat application is built using Node.js with Express.js in th backend to integrate socket.io for real time chatting feature. 
-- The Front end consists of Vanilla JavaScript, CSS and HTML.
+- This chat application is built using Node.js with Express.js in the backend to integrate socket.io for real time POS system backing data into a MongoDB database.
 
 
 ## Prerequisites
 
 * [Install Nodejs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 * [Install Express](https://www.npmjs.com/package/express)
-* [Install moment](https://www.npmjs.com/package/moment)
-* [Install Express](https://www.npmjs.com/package/socket.io)
+* [Install Socket.io](https://www.npmjs.com/package/socket.io)
+* [Install Mongo](https://www.mongodb.com/)
 
 
 
@@ -18,12 +17,12 @@
   ### 1. Clone App
   
  
-     $ git clone git@github.com:aditya28sarin/Chat-Application.git
+     $ https://github.com/chirgugh/viewtouch.git
  
     
  ### 2. Move in Directory
   
-     $ cd Chat-Application
+     $ cd viewtouch
    
     
  ### 3. Install node packages
@@ -35,36 +34,10 @@
    ```
    $ npm start  
   ```
-  NOTE: The port by default will be ```http://localhost:3000/```
+  Start the application on port 3000 ```http://localhost:3000/```
 
 
-## Want to Contribute?
-
-To start contributing, follow the below guidelines: 
-
-**1.**  Fork [this](git@github.com:aditya28sarin/Chat-Application.git) repository.
-
-**2.**  Clone your forked copy of the project.
-
-     $ git clone https://github.com/<your_user_name>/Chat-Application.git
-
-**3.** Navigate to the project directory
-
-     $ cd Chat-Application
-     
-**4.** Checkout into a new branch 
-
-     $ git checkout -b <branch_name>
-
-**5.** Make you changes
-
-**6.** Add and commit your changes
-
-     $ git add . && git commit -m "<your_message>"
-     
-**7.** Push Code to Github under your branch 
-
-     $ git push origin <branch_name>   
+ 
 
 ## Video Link 
 
