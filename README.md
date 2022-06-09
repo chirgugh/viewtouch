@@ -1,3 +1,21 @@
+<div markdown="1">
+    <h4>Jesse Mwirigi</h4>
+    <p>
+        I am an open-minded individual who is eager to learn and lead. I pride myself in my ability to work under pressure and to swiftly adapt to a dynamic working           environment. My areas of interest include Web development, Cloud computing, Artificial Intelligence, Data Mining and Dev Ops.
+        <br/>
+    </p>
+    
+[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn]([https://www.linkedin.com/](https://www.linkedin.com/in/jessemwiti/))
+&nbsp;
+[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub]([https://github.com/](https://github.com/chirgugh))
+
+
+</div>
+
+
+
+
+
 # ViewTouch
 
 - This chat application is built using Node.js with Express.js in the backend to integrate socket.io for real time POS system backing data into a MongoDB database.
@@ -45,18 +63,3 @@
 
 
 
-<div markdown="1">
-    <h4>Jesse Mwirigi</h4>
-    <p>
-        I am an open-minded individual who is eager to learn and lead. I pride myself in my ability to work under pressure and to swiftly adapt to a dynamic working           environment. My areas of interest include Web development, Cloud computing, Artificial Intelligence, Data Mining and Dev Ops.
-        <br/>
-    </p>
-    
-[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/jessemwiti/)[![GitHub][github-shield]](https://github.com/chirgugh)
-
-[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/)
-&nbsp;
-[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/)
-
-
-</div>
