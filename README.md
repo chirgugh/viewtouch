@@ -69,5 +69,7 @@ https://drive.google.com/file/d/1DzE4Ggeua6-DUJNmjWcQxEezeeZmZRiw/view?usp=shari
 [Kitchen](https://viewtouch.herokuapp.com/kitchen.html)
 [Report](https://viewtouch.herokuapp.com/report.html)
 
+## User Manual
+[Manual](https://drive.google.com/file/d/1oOQJCy3pyqo2BWeAJoXP37l3OCCUndX4/view?usp=sharing)
 
 
