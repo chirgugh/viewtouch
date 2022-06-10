@@ -133,8 +133,8 @@ io.on("connection", (socket) => {
 
 server.listen(PORT, async () => {
   console.log(`Server running on ${PORT}..`);
-  dbconnect();
-  dbtestconection();
+  // dbconnect();
+  // dbtestconection();
   connectmongo();
 });
 
