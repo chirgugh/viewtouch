@@ -66,6 +66,14 @@ async function updateorders(did){
 }
 
 
+async function getallorders() {
+  var array1 = await database.collection("orders").find().toArray();
+
+  // console.log(array1)
+   return array1
+}
+
+
 
 module.exports = {
   connectmongo,
@@ -73,4 +81,5 @@ module.exports = {
   getoldorders,
   getneworders,
   updateorders,
+  getallorders,
 };

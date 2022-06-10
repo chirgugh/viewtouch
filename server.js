@@ -13,12 +13,15 @@ const {
   addordermongo,
   getoldorders,
   getneworders,
-  updateorders
+  updateorders,
+  getallorders
 } = require("./mongo");
 
 var db;
 var neworders = [];
 var doneorders = [];
+var alldata = []
+
 
 const server = http.createServer(app);
 const io = socketio(server);
@@ -74,6 +77,18 @@ io.on("connection", (socket) => {
     });
   });
 
+
+  socket.on("joinreport", async (msg) => {
+    getallorders().then((data) => {
+      // console.log("all", data);
+      socket.emit("alldata", data);
+      alldata = data;
+    });
+  });
+
+
+
+
   socket.on("closeorder", async (did) => {
     // remove item from neworders, send through the new orders,
     const index = neworders.findIndex((ord) => ord.did === did.did);
@@ -85,6 +100,13 @@ io.on("connection", (socket) => {
       newold.status = 1;
       doneorders.push(newold);
       io.sockets.emit("oldolders", doneorders);
+
+      getallorders().then((data) => {
+        io.sockets.emit("alldata", data);
+        alldata = data;
+      });
+
+
     }
 
     ///remove from the database and
