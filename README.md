@@ -58,6 +58,16 @@
  
 
 ## Video Link 
+https://drive.google.com/file/d/1DzE4Ggeua6-DUJNmjWcQxEezeeZmZRiw/view?usp=sharing
+
+
+## User Manual 
+https://drive.google.com/file/d/1DzE4Ggeua6-DUJNmjWcQxEezeeZmZRiw/view?usp=sharing
+
+## Deployed 
+[Menu](https://viewtouch.herokuapp.com/menu.html)
+[Kitchen](https://viewtouch.herokuapp.com/kitchen.html)
+[Report](https://viewtouch.herokuapp.com/report.html)
 
 
 
