@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm start",
+    "start": "node server",
     "dev": "nodemon server",
-    "test": "jest"
+    "test": "jest",
+    "build":"npm start"
   },
   "author": "",
   "license": "ISC",
