@@ -71,7 +71,7 @@ io.on("connection", (socket) => {
 
   socket.on("joinkitchen", async (msg) => {
     getoldorders().then((data) => {
-      console.log("data is here =>", data);
+      console.log("data is here kitchen=>", data);
       socket.emit("oldolders", data);
       doneorders = data;
     });

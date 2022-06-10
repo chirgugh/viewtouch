@@ -6,17 +6,18 @@
   "scripts": {
     "start": "node server",
     "dev": "nodemon server",
-    "test": "jest",
-    "build":"npm start"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "http": "^0.0.1-security",
     "moment": "^2.29.1",
     "mongodb": "^4.6.0",
     "redis": "^3.1.2",
-    "socket.io": "^3.1.2"
+    "socket.io": "^3.1.2",
+    "socket.io-client": "^4.5.1"
   },
   "devDependencies": {
     "jest": "^28.1.1",
