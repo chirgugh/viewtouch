@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server",
     "dev": "nodemon server",
-    "test": "node server && jest"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
